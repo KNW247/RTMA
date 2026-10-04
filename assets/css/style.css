@@ -103,3 +103,7 @@ figure.wide img{border:0;background:transparent}
 .style-noimg{grid-template-columns:1fr}
 
 @media (max-width:720px){.brand-name{font-size:1.05rem}.brand-kanji{display:none}.brand-logo{width:40px;height:40px}}
+.form-status{margin:0;min-height:1.5em;font-weight:700}
+.form-status.is-ok{color:#1d6b33}
+.form-status.is-error{color:var(--red)}
+form.contact button:disabled{opacity:.6;cursor:default}
