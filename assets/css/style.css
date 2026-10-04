@@ -13,8 +13,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 /* header */
 .site-header{background:var(--bar);color:#fff}
 .site-header .inner{max-width:1040px;margin:0 auto;padding:18px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 28px}
-.brand{color:#fff;text-decoration:none;display:flex;align-items:baseline;gap:12px}
-.brand-name{font-family:var(--serif);font-size:1.35rem;font-weight:700;letter-spacing:.01em}
+.brand{color:#fff;text-decoration:none;display:flex;align-items:center;gap:12px}
+.brand-logo{width:48px;height:48px;flex:none}
+.brand-name{font-family:var(--serif);font-size:1.25rem;font-weight:700;letter-spacing:.01em}
 .brand-kanji{font-family:var(--serif);color:var(--red);font-size:1.1rem}
 .main-nav{display:flex;flex-wrap:wrap;gap:4px 22px}
 .main-nav a{color:#cfcfcf;text-decoration:none;font-size:.98rem;padding:4px 0;border-bottom:2px solid transparent}
@@ -100,3 +101,5 @@ form.contact button:hover{background:#a81a15}
 .motto,.style-item img,figure.wide img{mix-blend-mode:multiply}
 figure.wide img{border:0;background:transparent}
 .style-noimg{grid-template-columns:1fr}
+
+@media (max-width:720px){.brand-name{font-size:1.05rem}.brand-kanji{display:none}.brand-logo{width:40px;height:40px}}
