@@ -148,3 +148,6 @@ ol.steps li{margin-bottom:.6em}
 .social{display:flex;gap:14px}
 .social a{color:var(--mute)}
 .social a:hover{color:var(--red)}
+.opening{margin:-24px 0 48px}
+.opening img{width:100%;height:auto;border:1px solid var(--rule)}
+@media (max-width:720px){.opening{margin:-12px 0 28px}}
