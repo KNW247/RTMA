@@ -115,3 +115,7 @@ form.contact button:disabled{opacity:.6;cursor:default}
 ol.steps{padding-left:1.3em;margin:0 0 2em}
 ol.steps li{margin-bottom:.6em}
 @media (max-width:720px){.gallery{grid-template-columns:1fr}.gallery img{height:auto}}
+.bio-photo{margin:1.8em 0 2em;max-width:520px}
+.bio-photo img{width:100%;border:1px solid var(--rule)}
+.bio-photo figcaption{font-size:.88rem;color:var(--mute);margin-top:.5em}
+.further{font-size:.92rem;color:var(--mute);margin-top:2em;padding-top:1.2em;border-top:1px solid var(--rule)}
